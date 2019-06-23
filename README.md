@@ -26,10 +26,13 @@
 ### redis-check-dump: 檢查rdb日誌的工具<br/>
 ### redis-cli: 連接用的客戶端 <br/>
 ### redis-server: 服務進程 <br/>
-###<br/>
-###<br/>
-###<br/>
-###<br/>
+# 複製配置文件
+### cp /usr/local/src/redis-{版本號}/redis.conf ./ 從原文件中複製一份到當前目錄<br/>
+# 啟動與連接
+## 啟動<br/>
+### 例如: [root@localhost redis]# ./bin/redis-server ./redis.conf <br/>
+## 連接<br/>
+### 例如: [root@localhost redis]# ./bin/redis-cli [-h localhost -p 6379] <br/>
 ###<br/>
 ###<br/>
 ###<br/>
