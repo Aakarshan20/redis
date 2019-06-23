@@ -31,8 +31,11 @@
 # 啟動與連接
 ## 啟動<br/>
 ### 例如: [root@localhost redis]# ./bin/redis-server ./redis.conf <br/>
+### 請勿用control c 退出 因為會關掉<br/>
+### 再開一個連接進去<br/>
+### 或是用守護進程啟動(後面再用)<br/>
 ## 連接<br/>
-### 例如: [root@localhost redis]# ./bin/redis-cli [-h localhost -p 6379] <br/>
+### 例如: [root@localhost redis]# ./bin/redis-cli  <br/>
 ###<br/>
 ###<br/>
 ###<br/>
