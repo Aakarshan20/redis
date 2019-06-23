@@ -6,8 +6,8 @@
 ### cd /usr/local/src<br/>
 ### wget 貼上剛剛複製的連結<br/>
 ### 解壓原碼並進入目錄<br/>
-### tar zxvf redis-........<br/>
-### cd redis-......<br/>
+### tar zxvf redis-{版本號}<br/>
+### cd redis-{版本號}<br/>
 ### make<br/>
 ### 等待編譯......<br/>
 # 如果編譯中出現時間錯誤<br/>
