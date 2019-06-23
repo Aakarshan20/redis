@@ -23,7 +23,7 @@
 # 各文件說明
 ### redis-benchmark: 性能測試工具<br/>
 ### redis-check-aof: 檢查aof日誌的工具<br/>
-### redis-check-dump: 檢查rdb日誌的工具<br/>
+### redis-check-rdb: 檢查rdb日誌的工具<br/>
 ### redis-cli: 連接用的客戶端 <br/>
 ### redis-server: 服務進程 <br/>
 # 複製配置文件
@@ -43,7 +43,7 @@
 ### 可以看到在後台運行了<br/>
 ## 連接<br/>
 ### 例如: [root@localhost redis]# ./bin/redis-cli  <br/>
-#簡易操作
+# 簡易操作
 ### 在客戶端輸入 set name abcd<br/>
 ### get name 可得到abcd<br/>
 ###<br/>
