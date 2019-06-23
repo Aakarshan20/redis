@@ -20,11 +20,12 @@
 ### cd /usr/local/redis/ 進入目錄看一下<br/>
 ### ls 看到只有一個bin<br/>
 ### ls bin 可看到幾個文件<br/>
-#各文件說明
-### redis-benchmark<br/>
-### redis-check-aof<br/>
-### redis-cli <br/>
-### redis-server <br/>
+# 各文件說明
+### redis-benchmark: 性能測試工具<br/>
+### redis-check-aof: 檢查aof日誌的工具<br/>
+### redis-check-dump: 檢查rdb日誌的工具<br/>
+### redis-cli: 連接用的客戶端 <br/>
+### redis-server: 服務進程 <br/>
 ###<br/>
 ###<br/>
 ###<br/>
