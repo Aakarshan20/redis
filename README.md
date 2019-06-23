@@ -36,9 +36,9 @@
 ### 或是用守護進程啟動(後面再用)<br/>
 ## 連接<br/>
 ### 例如: [root@localhost redis]# ./bin/redis-cli  <br/>
-###<br/>
-###<br/>
-###<br/>
+#簡易操作
+### 在客戶端輸入 set name abcd<br/>
+### get name 可得到abcd<br/>
 ###<br/>
 ###<br/>
 
