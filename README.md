@@ -33,7 +33,14 @@
 ### 例如: [root@localhost redis]# ./bin/redis-server ./redis.conf <br/>
 ### 請勿用control c 退出 因為會關掉<br/>
 ### 再開一個連接進去<br/>
-### 或是用守護進程啟動(後面再用)<br/>
+### 或是用守護進程啟動:<br/>
+### vim redis.conf<br/>
+### 找到daemonize no<br/>
+### 改為: daemonize yes<br/>
+### 再次啟動試試 ./bin/redis-server ./redis.conf<br/>
+### 此時沒東西出現 <br/>
+### 輸入 ps aux|grep redis <br/>
+### 可以看到在後台運行了<br/>
 ## 連接<br/>
 ### 例如: [root@localhost redis]# ./bin/redis-cli  <br/>
 #簡易操作
