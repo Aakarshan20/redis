@@ -13,6 +13,27 @@
 # 如果編譯中出現時間錯誤<br/>
 ### 解決方法: date -s 'yyy-mm-dd hh:mm:ss' 重寫時間<br/>
 ### 再使用: clock-w 寫入 cmos<br/>
+# Redis 安装报错 error: jemalloc/jemalloc.h: No such file or directory解决方法<br/>
+## 解法如下
+### make MALLOC=libc
+# make 報錯
+cd src && make all
+make[1]: Entering directory `/home/user/redis-2.4.2/src'
+MAKE hiredis
+make[2]: Entering directory `/home/user/redis-2.4.2/deps/hiredis'
+cc -c -std=c99 -pedantic -O3 -fPIC -Wall -W -Wstrict-prototypes -Wwrite-strings    -g -ggdb  net.c
+make[2]: cc: Command not found
+make[2]: *** [net.o] Error 127
+make[2]: Leaving directory `/home/user/redis-2.4.2/deps/hiredis'
+make[1]: *** [dependencies] Error 2
+make[1]: Leaving directory `/home/user/redis-2.4.2/src'
+make: *** [all] Error 2
+## 解法如下
+### sudo apt-get install make
+### sudo apt-get install gcc
+### sudo apt-get install tcl
+### sudo apt-get install build-essential
+### sudo apt-get update
 # 編譯完後
 ### 使用 make test 來檢查一下<br/>
 # 安裝並指定安裝路徑
